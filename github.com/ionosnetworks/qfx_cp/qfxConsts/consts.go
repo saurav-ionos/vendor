@@ -1,0 +1,14 @@
+package qfxConsts
+
+const (
+	ACCESS_KEY_LENGTH      = 32
+	ACCESS_SECRET_LENGTH   = 64
+	GLOBAL_CONTROLLER_UUID = "GLOBAL_QFX_CONTROLLER"
+	MAX_PAYLOAD_ALLOWED    = 8 * 1024
+)
+
+const (
+	CPE_ONLINE  = iota
+	CPE_OFFLINE = iota
+	CPE_INFO    = iota
+)

@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ApiResp	objects/objects.go	/^type ApiResp struct {$/;"	t
+ApiReturnStatus	dbobjects/dbobjects.go	/^type ApiReturnStatus int$/;"	t
+ApiReturnStatus	objects/objects.go	/^type ApiReturnStatus int$/;"	t
+CreateSyncReln	dbhandler/syncDbHandler.go	/^func (hndlr SyncDbHandler)  CreateSyncReln(syncRelnInput *syncObjects.CreateSyncRelnInput) syncObjects.CreateSyncRelnOutput{$/;"	f
+CreateSyncReln	handler/syncHandlr.go	/^func CreateSyncReln(w http.ResponseWriter, r *http.Request) {$/;"	f
+CreateSyncRelnInput	objects/objects.go	/^type CreateSyncRelnInput struct {$/;"	t
+CreateSyncRelnOutput	objects/objects.go	/^type CreateSyncRelnOutput struct {$/;"	t
+DbCreateSyncRelnInput	dbobjects/dbobjects.go	/^type DbCreateSyncRelnInput struct {$/;"	t
+DbCreateSyncRelnOutput	dbobjects/dbobjects.go	/^type DbCreateSyncRelnOutput struct {$/;"	t
+DbGetSyncRelnInput	dbobjects/dbobjects.go	/^type DbGetSyncRelnInput struct {$/;"	t
+DbGetSyncRelnOutput	dbobjects/dbobjects.go	/^type DbGetSyncRelnOutput struct {$/;"	t
+DbResp	dbobjects/dbobjects.go	/^type DbResp struct {$/;"	t
+DbSyncReln	dbobjects/dbobjects.go	/^type DbSyncReln struct {$/;"	t
+DeleteSyncReln	handler/syncHandlr.go	/^func DeleteSyncReln(w http.ResponseWriter, r *http.Request) {$/;"	f
+EditSyncReln	handler/syncHandlr.go	/^func EditSyncReln(w http.ResponseWriter, r *http.Request) {$/;"	f
+FAILURE	dbobjects/dbobjects.go	/^     SUCCESS ApiReturnStatus = iota$/;"	c
+FAILURE	objects/objects.go	/^     SUCCESS ApiReturnStatus = iota$/;"	c
+GetSyncReln	handler/syncHandlr.go	/^func GetSyncReln(w http.ResponseWriter, r *http.Request) {$/;"	f
+GetSyncRelnInput	objects/objects.go	/^type GetSyncRelnInput struct {$/;"	t
+GetSyncRelnOutput	objects/objects.go	/^type GetSyncRelnOutput struct {$/;"	t
+NewSyncDbHandler	dbhandler/syncDbHandler.go	/^func NewSyncDbHandler() *SyncDbHandler {$/;"	f
+SUCCESS	dbobjects/dbobjects.go	/^const ($/;"	c
+SUCCESS	objects/objects.go	/^const ($/;"	c
+SVC_ACCESS_FILE	syncmgr.go	/^const ($/;"	c
+SVR_CERT_FILE	syncmgr.go	/^    SVC_ACCESS_FILE = "\/keys\/keyfile"$/;"	c
+SVR_KEY_FILE	syncmgr.go	/^    SVR_CERT_FILE   = "\/keys\/lftsvr.crt"$/;"	c
+SetLogger	dbhandler/syncDbHandler.go	/^func SetLogger(context string, log blog.Logger) {$/;"	f
+SetLogger	handler/syncHandlr.go	/^func SetLogger(context string, log blog.Logger) {$/;"	f
+String	objects/apireturnstatus_string.go	/^func (i ApiReturnStatus) String() string {$/;"	f
+SyncDbHandler	dbhandler/syncDbHandler.go	/^type ($/;"	t
+SyncReln	objects/objects.go	/^type SyncReln struct {$/;"	t
+_ApiReturnStatus_index	objects/apireturnstatus_string.go	/^var _ApiReturnStatus_index = [...]uint8{0, 7, 14}$/;"	v
+_ApiReturnStatus_name	objects/apireturnstatus_string.go	/^const _ApiReturnStatus_name = "SUCCESSFAILURE"$/;"	c
+accessPoint	syncmgr.go	/^    svcPort = "1282"$/;"	v
+ctx	dbhandler/syncDbHandler.go	/^var ($/;"	v
+ctx	handler/syncHandlr.go	/^var ($/;"	v
+ctx	syncmgr.go	/^var ($/;"	v
+dbhandler	dbhandler/syncDbHandler.go	/^package dbhandler$/;"	p
+dbobjects	dbobjects/dbobjects.go	/^package dbobjects$/;"	p
+globalApisvc	syncmgr.go	/^    logger blog.Logger$/;"	v
+handler	handler/syncHandlr.go	/^package handler$/;"	p
+initLogger	syncmgr.go	/^func initLogger(accessKey, secret string) {$/;"	f
+key	syncmgr.go	/^    globalApisvc = "127.0.0.1:8080"$/;"	v
+logger	dbhandler/syncDbHandler.go	/^    ctx                = ""$/;"	v
+logger	handler/syncHandlr.go	/^	ctx                = ""$/;"	v
+logger	syncmgr.go	/^    ctx = "syncmgr"$/;"	v
+main	routes.go	/^package main$/;"	p
+main	syncmgr.go	/^func main() {$/;"	f
+main	syncmgr.go	/^package main$/;"	p
+objects	objects/apireturnstatus_string.go	/^package objects$/;"	p
+objects	objects/objects.go	/^package objects$/;"	p
+readConfig	syncmgr.go	/^func readConfig() {$/;"	f
+routes	routes.go	/^var ($/;"	v
+setLogLevel	syncmgr.go	/^func setLogLevel(logLevel string) {$/;"	f
+svcName	syncmgr.go	/^    key kr.AccessKey$/;"	v
+svcPort	syncmgr.go	/^    svcName = "127.0.0.1"$/;"	v

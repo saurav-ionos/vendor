@@ -1,0 +1,29 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FIRST_PKT_EXPECTED_INTERVAL	logsvr.go	/^const ($/;"	c
+GmsgHeader	logsvr.go	/^var ($/;"	v
+LogClients	objects.go	/^type LogClients struct {$/;"	t
+LogController	objects.go	/^type LogController struct {$/;"	t
+LogSvr	objects.go	/^type LogSvr struct {$/;"	t
+New	logsvr.go	/^func New() *LogSvr {$/;"	f
+Start	logsvr.go	/^func (logsvr *LogSvr) Start() {$/;"	f
+ValidateKeys	logsvr.go	/^func ValidateKeys(authpkt cmn.MsgAuthPkt) bool {$/;"	f
+getConnForClient	logsvr.go	/^func (logsvr *LogSvr) getConnForClient(destid string) net.Conn {$/;"	f
+handleClientAuth	logsvr.go	/^func (logsvr *LogSvr) handleClientAuth(pkt cmn.MsgPkt, conn net.Conn) bool {$/;"	f
+handleClientInfoReq	logsvr.go	/^func (logsvr *LogSvr) handleClientInfoReq(dest string, conn net.Conn) {$/;"	f
+handleClientInfoUpdate	logsvr.go	/^func (logsvr *LogSvr) handleClientInfoUpdate(pkt cmn.MsgPkt, conn net.Conn) {$/;"	f
+handleClientLogin	logsvr.go	/^func (logsvr *LogSvr) handleClientLogin(clientid string, conn net.Conn) {$/;"	f
+handleClientLogout	logsvr.go	/^func (logsvr *LogSvr) handleClientLogout(clientid string) {$/;"	f
+handleClientMessage	logsvr.go	/^func (logsvr *LogSvr) handleClientMessage(pkt cmn.MsgPkt) {$/;"	f
+handleConnection	logsvr.go	/^func (logsvr *LogSvr) handleConnection(conn net.Conn) {$/;"	f
+handleControllerLogin	logsvr.go	/^func (logsvr *LogSvr) handleControllerLogin(controllerid string, conn net.Conn) {$/;"	f
+init	logsvr.go	/^func (logsvr *LogSvr) init() {$/;"	f
+main	logsvr.go	/^func main() {$/;"	f
+main	logsvr.go	/^package main$/;"	p
+main	objects.go	/^package main$/;"	p
+readConfig	logsvr.go	/^func (logsvr *LogSvr) readConfig() {$/;"	f
+sendSecondaryCtrlDetails	logsvr.go	/^func (logsvr *LogSvr) sendSecondaryCtrlDetails(clientid string, conn net.Conn) {$/;"	f
